@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "BomiHelloFramework666"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of BomiHelloFramework666."
+  spec.summary      = "BomiHelloFramework666 is very useful pod."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,8 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  666
+  BomiHelloFramework666 is very useful pod.
+  so 666
                    DESC
 
   spec.homepage     = "https://github.com/mik-fungmae/BomiHelloFramework"
