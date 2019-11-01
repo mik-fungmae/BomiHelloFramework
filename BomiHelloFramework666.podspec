@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BomiHelloFramework666"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "BomiHelloFramework666 is very useful pod."
 
   # This description is used to generate tags and improve search results.
@@ -93,7 +93,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files  = "BomiHelloFramework/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
