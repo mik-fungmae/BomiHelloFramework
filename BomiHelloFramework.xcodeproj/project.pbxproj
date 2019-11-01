@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		18BEF232236C160900211C38 /* BomiHelloFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BEF230236C160900211C38 /* BomiHelloFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18BEF23A236C212E00211C38 /* BomiTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BEF238236C212E00211C38 /* BomiTest.h */; };
+		18BEF23B236C212E00211C38 /* BomiTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEF239236C212E00211C38 /* BomiTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18BEF22D236C160900211C38 /* BomiHelloFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BomiHelloFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BEF230236C160900211C38 /* BomiHelloFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BomiHelloFramework.h; sourceTree = "<group>"; };
 		18BEF231236C160900211C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BEF238236C212E00211C38 /* BomiTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BomiTest.h; sourceTree = "<group>"; };
+		18BEF239236C212E00211C38 /* BomiTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BomiTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				18BEF230236C160900211C38 /* BomiHelloFramework.h */,
 				18BEF231236C160900211C38 /* Info.plist */,
+				18BEF238236C212E00211C38 /* BomiTest.h */,
+				18BEF239236C212E00211C38 /* BomiTest.m */,
 			);
 			path = BomiHelloFramework;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18BEF232236C160900211C38 /* BomiHelloFramework.h in Headers */,
+				18BEF23A236C212E00211C38 /* BomiTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BEF23B236C212E00211C38 /* BomiTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
